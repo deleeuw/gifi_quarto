@@ -11,7 +11,7 @@ small_active <- c(TRUE, TRUE, TRUE, TRUE)
 small_names <- c("x", "a", "b", "c")
 small_sets <- 1:4
 
-h <- makeGifi (
+h <- makeGifi(
   small,
   small_weights,
   small_knots,

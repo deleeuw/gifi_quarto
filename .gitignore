@@ -15,3 +15,4 @@
 *_libs/
 shlibs/
 /.quarto/
+**/*.quarto_ipynb
