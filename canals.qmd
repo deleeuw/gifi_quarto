@@ -5,6 +5,8 @@ source("./meta.R")
 
 # Canonical Analysis and canals()
 
+# Introduction
+
 ## Equations
 
 If there are only two blocks the generalized eigenvalue problem for the Burt matrix becomes

@@ -7,13 +7,14 @@ source("./meta.R")
 
 # Note {.unnumbered}
 
-This book will be expanded/updated frequently. The directory
-[https://www.github.com/deleeuw/gifi_quarto]
-(https:www.github.com/deleeuw/gifi_quarto) has a pdf version, the bib files, the
-qmd files with the code chunks, the tex file, and the R and C source code.
-Suggestions for improvement of text and code are welcome. All text and code are
-in the public domain and can be copied and used by anybody in any way they like.
-Attribution will be appreciated, but is not required.
+This book has been "in progress" for well over 10 years and it will continue to
+be worked on every once in a while. The directory
+<https://www.github.com/deleeuw/gifi_quarto> has the current pdf version, the
+bib files, the qmd files with the code chunks, the tex file, and the R and C
+source code. Suggestions for improvement of text and code are always welcome.
+All text and code are in the public domain and can be copied, modfied, and used
+by anybody in any way they like. Attribution will be appreciated, but is not
+required.
 
 Just as an aside: "above" in the text refers to anything that comes earlier in
 the book and "below" refers to anything that comes later. This always confuses

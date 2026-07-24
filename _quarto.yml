@@ -10,6 +10,7 @@ book:
     - preface.qmd
     - intro.qmd
     - coding.qmd
+    - loss.qmd
     - algorithm.qmd
     - homals.qmd
     - corals.qmd
@@ -18,7 +19,7 @@ book:
     - canals.qmd
     - morals.qmd
     - criminals.qmd
-#    - overals.qmd
+    - overals.qmd
     - references.qmd
 
 bibliography: 

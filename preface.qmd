@@ -1,4 +1,3 @@
-
 # Preface {.unnumbered}
 
 In 1980 members of the Department of Data Theory at the University of Leiden
@@ -15,13 +14,13 @@ English.
 > Cause he served.
 
 Roughly ten years later a revised version of these course notes came out as an
-actual book in the *Wiley Series in Probabilty and Mathematical Statistics*
-  (@gifi_B_90). This despite the fact that the contents of the book had very
-little to do with either probability or mathematical statistics. The book is
-organized around a series of computer programs for correspondence analysis,
-principal component analysis, and canonical analysis. The programs, written in
-FORTRAN, are called HOMALS, PRINCALS, PRIMALS, CRIMINALS, CANALS, OVERALS
-because they combine classical linear multivariate analysis with optimal
+actual 579-page book in the *Wiley Series in Probabilty and Mathematical
+Statistics* (@gifi_B_90). This despite the fact that the contents of the book
+had very little to do with either probability or mathematical statistics. The
+book is organized around a series of computer programs for correspondence
+analysis, principal component analysis, and canonical analysis. The programs,
+written in FORTRAN, are called HOMALS, PRINCALS, PRIMALS, CRIMINALS, CANALS,
+OVERALS because they combine classical linear multivariate analysis with optimal
 transformation of the variables, using alternating least squares (or ALS). It
 serves, to some extent, as a manual for the programs, but it also discusses the
 properties of the techniques implemented in the programs, and it presents many
@@ -43,10 +42,10 @@ Reviewers generally had some difficulties separating the wheat from the chaff.
 
 This ambiguity and confusion are not too surprising. The Gifi book was a summary
 of the work of a large number of people, over a period of almost 20 years.
-Nevertheless, and perhaps because of this, it is somewhat of a *camel*, which we
-define for our purposes as a *horse designed by a committee*. Different chapters
-had different authors, and the common ideas behind the various techniques were
-not always clearly explained.
+Nevertheless, and perhaps because of this, it is somewhat of a *camel*, i.e. a
+*horse designed by a committee*. Different chapters had different authors, and
+the common ideas behind the various techniques were not always clearly
+explained.
 
 > In Gifi's MVA the criterion called "meet" loss plays a central role. Although
 > the adoption of this criterion is one of the most important contributions of
@@ -59,7 +58,7 @@ early applications of alternating least squares, majorization, coordinate
 descent, the delta method, and the bootstrap. And it emphasizes throughout the
 idea that statistics is about techniques, not about models. But, yes, the
 organization leaves much to be desired. An on demand printing of the first and
-only edition is now available on Amazon for $ 492 -- although of course used
+only edition is now available on Amazon for $ 396 -- although of course used
 versions go for much less.
 
 The book was published by a prestiguous publisher in a prestiguous series, but
@@ -71,16 +70,16 @@ in a computer science department. The Gifi group did not have the resources of,
 say, Benzécri in France or Hayashi in Japan. The members were mostly active in
 psychometrics, a small and insular field, and they were from The Netherlands, a
 small country prone to overestimate its importance (@marvell_53). They also did
-not have the evangelical zeal necessary for creating and sustaining a large
-impact.
+not have the evangelical zeal necessary for creating and sustaining a major
+impact of their work.
 
-There have been some other major publication events in the Gifi saga. Around the
-same time as the Wiley book there was the publication of @spss_89. Starting in
-the late seventies the Gifi FORTRAN programs had been embedded in the SPSS
+There have been some other important publication events in the Gifi saga. Around
+the same time as the Wiley book there was the publication of @spss_89. Starting
+in the late seventies the Gifi FORTRAN programs had been embedded in the SPSS
 system. The *SPSS Categories* manual was updated many times, in fact every time
 SPSS or IBM SPSS had a new release. Over the years other programs produced by
-the Department of Data Theory were added. A recent version is, for example,
-@meulman_heiser_12, corresponding to IBM SPSS 21. It acknowledges the
+the Department of Data Theory were added. A fairly recent version is, for
+example, @meulman_heiser_12, corresponding to IBM SPSS 21. It acknowledges the
 contributions of some of the members of the Gifi team -- but in @ibm_15, the
 version for IBM SPSS 23, these acknowledgements and the names of the authors
 have disappeared. Sic transit gloria mundi.
@@ -103,23 +102,22 @@ our software we separate the basic computational engine from its various
 applications that define the techniques of *Multivariate Analysis with Optimal
 Scaling (MVAOS)*. Hiding the core makes it possible to make the programs behave
 in much the same way as traditional MVA programs. The software is written in R
-(@r_core_team_16), with some parts of the computational engine written in C.
+(@r_core_team_26), with some parts of the computational engine written in C.
 
-The book itself is written in Rmarkdown, using bookdown (@xie_16) and knitr
-(@xie_15) to embed the computations and graphics, and to produce html and pdf
-versions that are completely reproducible. The book and all the files that go
-with it are in the public domain.
+The book itself is written using the Posit's Quarto publishing system
+<https://quarto.org>, with computations and graphics embedded in the text,
+producing html and pdf versions that are completely reproducible. The book and
+all the files that go with it are in the public domain.
 
 We would like to acknowledge those who have made substantial contributions to
-the Gifi project (and its immediate ancestors and offspring) over the years.
-Some of them are lost in the mists of time, some of them are no longer on this
-earth. They are, in alphabetical order, Bert Bettonvil, Jason Bond, Catrien
-Bijleveld, Frank Busing, Jacques Commandeur, Henny Coolen, Steef de Bie, Jan de
-Leeuw, John Gower, Patrick Groenen, Chris Haveman, Willem Heiser, Abby Israels,
-Judy Knip, Jan Koster, Pieter Kroonenberg, Patrick Mair, Adriaan Meester,
-Jacqueline Meulman, George Michailidis, Peter Neufeglise, Dré Nierop, Ineke
-Stoop, Yoshio Takane, Stef van Buuren, John van de Geer, Gerda van den Berg,
-Eeke van der Burg, Peter van der Heijden, Anita van der Kooij, Ivo van der Lans,
-Rien van der Leeden, Jan van Rijckevorsel, Renée Verdegaal, Peter Verboon,
-Susañña Verdel, and Forrest Young.
-
+the Gifi project (and its immediate ancestors and progeny) over the years. Some
+of them are lost in the mists of time, some of them are no longer on this earth.
+They are, in alphabetical order, Bert Bettonvil, Jason Bond, Catrien Bijleveld,
+Frank Busing, Jacques Commandeur, Henny Coolen, Steef de Bie, Jan de Leeuw, John
+Gower, Patrick Groenen, Chris Haveman, Willem Heiser, Abby Israels, Judy Knip,
+Jan Koster, Pieter Kroonenberg, Patrick Mair, Adriaan Meester, Jacqueline
+Meulman, George Michailidis, Peter Neufeglise, Dré Nierop, Ineke Stoop, Yoshio
+Takane, Stef van Buuren, John van de Geer, Gerda van den Berg, Eeke van der
+Burg, Peter van der Heijden, Anita van der Kooij, Ivo van der Lans, Rien van der
+Leeden, Jan van Rijckevorsel, Renée Verdegaal, Peter Verboon, Susañña Verdel,
+and Forrest Young.

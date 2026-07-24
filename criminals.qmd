@@ -4,6 +4,8 @@ source("./meta.R")
 
 # Discriminant Analysis and criminals()
 
+# Introduction
+
 ## Equations 
 
 If the second block contains more than one copy of a single variable and we use binary indicator coding for that variable, then we optimize the

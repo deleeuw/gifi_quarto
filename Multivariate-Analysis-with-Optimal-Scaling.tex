@@ -301,14 +301,14 @@
 
 \markboth{Note}{Note}
 
-This book will be expanded/updated frequently. The directory
-{[}https://www.github.com/deleeuw/gifi\_quarto{]}
-(https:www.github.com/deleeuw/gifi\_quarto) has a pdf version, the bib
-files, the qmd files with the code chunks, the tex file, and the R and C
-source code. Suggestions for improvement of text and code are welcome.
-All text and code are in the public domain and can be copied and used by
-anybody in any way they like. Attribution will be appreciated, but is
-not required.
+This book has been ``in progress'' for well over 10 years and it will
+continue to be worked on every once in a while. The directory
+\url{https://www.github.com/deleeuw/gifi_quarto} has the current pdf
+version, the bib files, the qmd files with the code chunks, the tex
+file, and the R and C source code. Suggestions for improvement of text
+and code are always welcome. All text and code are in the public domain
+and can be copied, modfied, and used by anybody in any way they like.
+Attribution will be appreciated, but is not required.
 
 Just as an aside: ``above'' in the text refers to anything that comes
 earlier in the book and ``below'' refers to anything that comes later.
@@ -340,7 +340,7 @@ during so any years, to the Cause he served.
 \end{quote}
 
 Roughly ten years later a revised version of these course notes came out
-as an actual book in the \emph{Wiley Series in Probabilty and
+as an actual 579-page book in the \emph{Wiley Series in Probabilty and
 Mathematical Statistics} (Gifi (1990)). This despite the fact that the
 contents of the book had very little to do with either probability or
 mathematical statistics. The book is organized around a series of
@@ -376,10 +376,9 @@ Analysis. (Hill (1990))
 This ambiguity and confusion are not too surprising. The Gifi book was a
 summary of the work of a large number of people, over a period of almost
 20 years. Nevertheless, and perhaps because of this, it is somewhat of a
-\emph{camel}, which we define for our purposes as a \emph{horse designed
-by a committee}. Different chapters had different authors, and the
-common ideas behind the various techniques were not always clearly
-explained.
+\emph{camel}, i.e.~a \emph{horse designed by a committee}. Different
+chapters had different authors, and the common ideas behind the various
+techniques were not always clearly explained.
 
 \begin{quote}
 In Gifi's MVA the criterion called ``meet'' loss plays a central role.
@@ -395,7 +394,7 @@ coordinate descent, the delta method, and the bootstrap. And it
 emphasizes throughout the idea that statistics is about techniques, not
 about models. But, yes, the organization leaves much to be desired. An
 on demand printing of the first and only edition is now available on
-Amazon for \$ 492 -- although of course used versions go for much less.
+Amazon for \$ 396 -- although of course used versions go for much less.
 
 The book was published by a prestiguous publisher in a prestiguous
 series, but it is fair to say it never really caught on. It is not hard
@@ -408,16 +407,16 @@ Benzécri in France or Hayashi in Japan. The members were mostly active
 in psychometrics, a small and insular field, and they were from The
 Netherlands, a small country prone to overestimate its importance
 (Marvell (1653)). They also did not have the evangelical zeal necessary
-for creating and sustaining a large impact.
+for creating and sustaining a major impact of their work.
 
-There have been some other major publication events in the Gifi saga.
-Around the same time as the Wiley book there was the publication of SPSS
-(1989). Starting in the late seventies the Gifi FORTRAN programs had
-been embedded in the SPSS system. The \emph{SPSS Categories} manual was
-updated many times, in fact every time SPSS or IBM SPSS had a new
+There have been some other important publication events in the Gifi
+saga. Around the same time as the Wiley book there was the publication
+of SPSS (1989). Starting in the late seventies the Gifi FORTRAN programs
+had been embedded in the SPSS system. The \emph{SPSS Categories} manual
+was updated many times, in fact every time SPSS or IBM SPSS had a new
 release. Over the years other programs produced by the Department of
-Data Theory were added. A recent version is, for example, Meulman and
-Heiser (2012), corresponding to IBM SPSS 21. It acknowledges the
+Data Theory were added. A fairly recent version is, for example, Meulman
+and Heiser (2012), corresponding to IBM SPSS 21. It acknowledges the
 contributions of some of the members of the Gifi team -- but in IBM
 (2015), the version for IBM SPSS 23, these acknowledgements and the
 names of the authors have disappeared. Sic transit gloria mundi.
@@ -442,17 +441,17 @@ software we separate the basic computational engine from its various
 applications that define the techniques of \emph{Multivariate Analysis
 with Optimal Scaling (MVAOS)}. Hiding the core makes it possible to make
 the programs behave in much the same way as traditional MVA programs.
-The software is written in R ((\textbf{r\_core\_team\_16?})), with some
-parts of the computational engine written in C.
+The software is written in R (R Core Team (2026)), with some parts of
+the computational engine written in C.
 
-The book itself is written in Rmarkdown, using bookdown (Xie (2016)) and
-knitr (Xie (2015)) to embed the computations and graphics, and to
-produce html and pdf versions that are completely reproducible. The book
-and all the files that go with it are in the public domain.
+The book itself is written using the Posit's Quarto publishing system
+\url{https://quarto.org}, with computations and graphics embedded in the
+text, producing html and pdf versions that are completely reproducible.
+The book and all the files that go with it are in the public domain.
 
 We would like to acknowledge those who have made substantial
 contributions to the Gifi project (and its immediate ancestors and
-offspring) over the years. Some of them are lost in the mists of time,
+progeny) over the years. Some of them are lost in the mists of time,
 some of them are no longer on this earth. They are, in alphabetical
 order, Bert Bettonvil, Jason Bond, Catrien Bijleveld, Frank Busing,
 Jacques Commandeur, Henny Coolen, Steef de Bie, Jan de Leeuw, John
@@ -474,17 +473,17 @@ The type of multivariate analysis (MVA) we discuss in this book is
 sometimes called \emph{descriptive} or \emph{exploratory}, as opposed to
 \emph{inferential} or \emph{confirmatory}. It is located somewhere on
 the line between computational linear algebra and statistics, and it is
-probably close to data analysis, Big Data, machine learning, knowledge
-discovery, data mining, business analytics, deep learning, or whatever
-other ill-defined label is used for the \emph{mode du jour}.
+definitely related to data analysis, Big Data, machine learning,
+knowledge discovery, data mining, business analytics, deep learning, or
+whatever other ill-defined label is used for the \emph{mode du jour}.
 
-In the days of Gifi (1990) there was a small-scale civil war between the
+In the days of Gifi (1990) there were heated discussions between the
 mathematical statistical (confirmatory) approach to MVA and the data
 analytical (exploratory) approach. This is not a new conflict, because
 it has its roots in the Pearson-Yule debate (Mackenzie (1978)). The
 first shots in modern times were probably fired by Tukey (1962), but
-much additional polemic heat was generated in the 50 years since Tukey's
-famous paper. In order to stand our ground we were forced to
+much additional polemic material was generated in the 50 years since
+Tukey's famous paper. In order to stand our ground we were forced to
 participate, for example with De Leeuw (1984a), De Leeuw (1988a), De
 Leeuw (1990).
 
@@ -509,7 +508,7 @@ Gifi's first chapter, in particular his section 1.5, outlines an
 approach to statistics that emphasizes \emph{techniques} over
 \emph{models}. A technique is a map of data into representations of some
 sort. Representations can be test statistics, confidence intervals,
-posterior distributions, tables, graphs. \emph{Statistics studies the
+posterior distributions, tables, or graphs. \emph{Statistics studies the
 construction, properties, and performance of techniques}. Models are
 used to \emph{gauge} techniques, that is to see how they perform on
 \emph{synthetic data}, which are data described by equations or
@@ -538,7 +537,8 @@ kindred spirit. (Breiman (2001), p.~205)
 
 This was written some time after the influential paper by Breiman and
 Friedman (1985), which introduced the Gifi-like ACE technique for
-multiple regression.
+multiple regression. Of course the 98\%-2\% distribution has shifted
+considerably in the last 25 years.
 
 The emphasis in the data modeling culture is on explanation or
 information, the emphasis in the algorithmic modeling culture on
@@ -574,16 +574,15 @@ Of course currently the big discussion is if Data Science is actually
 statistics under a new name. And, more importantly, who should teach it.
 And, even more importantly, which department should receive the grant
 money. Parzen may believe that statisticians seek the Truth, whatever
-that is, but the current situation in Academia is that there is no truth
-if you do not consider profit. Statistics departments are typically
-small, and they feel threatened by gigantic Schools of Engineering
-looming over them (Association (n.d.), Yu (2014)). It is partly a
-question of scale: there are too many data to fit into statistics
-departments. Numerous new graduate Data Science programs are popping up,
-in many cases geared toward management and not so much toward science.
-Statistics departments are seriously considering changing their names,
-before the levies break and they are flooded by the inevitable rise of
-data.
+that is, but the current situation in Academia is that there is truth is
+not independent of profit. Statistics departments are typically small,
+and they feel threatened by gigantic Schools of Engineering looming over
+them (Association (n.d.), Yu (2014)). It is partly a question of scale:
+there are too many data to fit into statistics departments. Numerous new
+graduate Data Science programs are popping up, in many cases geared
+toward management and industry and not so much toward science.
+Statistics departments are adding Data to their names, before the levies
+break and they are flooded by the inevitable rise of data.
 
 We shall not pay much attention any more to these turf and culture wars,
 because basically they are over. Data analysis, in its multitude of
@@ -598,22 +597,22 @@ and the wine runneth out, and the bottles perish: but they put new wine
 into new bottles, and both are preserved. (Matthew 9:17)
 \end{quote}
 
-Notwithstanding the monumental changes, inferential statistics remains
-an important form of stability analysis for data analysis techniques.
-Probabilistic models are becoming more and more important in many
-branches of science, and perturbing a probabilistic model is most
-naturally done by sampling. Thus huge parts of classical statistics are
-preserved, and not surprisingly these are exactly the parts useful in
-data analysis.
+Notwithstanding the monumental changes, inferential statistics does
+remain an important form of stability analysis for data analysis
+techniques. Probabilistic models are becoming more and more important in
+many branches of science, and if feasible perturbing a probabilistic
+model is most naturally done by sampling. Thus huge parts of classical
+statistics are preserved, and not surprisingly these are exactly the
+parts useful in data analysis.
 
 \section{Quantifying Qualitative
 Data}\label{quantifying-qualitative-data}
 
 One way of looking at \emph{Multivariate Analysis with Optimal Scaling},
 or \emph{MVAOS}, is as an extension of classical linear multivariate
-analysis to variables that are binary, ordered, or even unordered
-categorical. In R terminology, classical MVA techniques can thus be
-applied if some or all of the variables in the dataframe are
+analysis to sets of variables that are binary, ordered, or even
+unordered categorical. In R terminology, classical MVA techniques can
+thus be applied if some or all of the variables in the dataframe are
 \emph{factors}. Categorical variables are \emph{quantified} and
 numerical variables are \emph{transformed} to optimize the linear or
 bilinear least squares fit.
@@ -647,9 +646,9 @@ Squares with Optimal Scaling. The ALS part of the name was provided by
 De Leeuw (1968b) and the OS part by Bock (1960). At early meetings of
 the Psychometric Society some members were offended by our use of
 ``Optimal Scaling'', because they took it to imply that their methods of
-scaling were supposedly inferior to ours. But the ``optimal'' merely
-refers to optimality in the context of a specific least squares loss
-function.
+scaling were supposedly ``suboptimal'', and thus inferior to ours. But
+the ``optimal'' merely refers to optimality in the context of a specific
+least squares loss function.
 
 Young, De Leeuw, and Takane applied the basic ALS and OS methodology to
 conjoint analysis, regression, principal component analysis,
@@ -756,12 +755,10 @@ could bridge the gap between the aspect approach and the Gifi approach,
 provided \emph{orthoblocks} of transformations were introduced. This is
 combined with the notion of \emph{copies}, introduced in De Leeuw
 (1984b), to design a new class of techniques that encompasses all of
-Gifi and that brings generalized canonical correlation analysis in the
+Gifi and that brings generalized canonical correlation analysis into the
 aspect framework. Thus correlation aspects, and the majorization
-algorithms to optimize them, are now a true generalization of the Gifi
+algorithms to optimize them, are a true generalization of the Gifi
 system.
-
-*** This is the system we discuss in this book.
 
 \bookmarksetup{startatroot}
 
@@ -779,31 +776,60 @@ individuals, animals, plants, time points, locations, and so on. It is
 useful to distinguish the \emph{codomain} (or \emph{range}) of a
 variable and its \emph{image}. The codomain of a variable can be the
 real numbers, but the image always is a finite set, the actual values
-the variable assumes on the domain. A \emph{multivariable} is a sequence
-of variables defined on the same domain, with possibly different
-codomains. Multivariables are implemented in R as \emph{dataframes}.
-Variables can have a finite codomain, which can be either ordered or
-unordered. This corresponds with a \emph{factor} or an \emph{ordered
-factor} in R. MVAOS techniques \emph{quantify} factors, replacing the
-values in the image by real numbers. If the variables are real-valued to
-start with we replace real numbers by other real numbers and we
-\emph{transform} instead of \emph{quantify}. The distinction between
-quantification and transformation is somewhat fluid, because the image
-of a variable is always finite and thus, in a sense, all variables are
-categorical (a point also emphasized, for example, in Holland (1979)).
+the variable assumes on the domain.
+
+A \emph{multivariable} is a sequence of variables defined on the same
+domain, with possibly different codomains. Multivariables are
+implemented in R as \emph{dataframes}. Variables can have a finite
+codomain, which can be either ordered or unordered. This corresponds
+with a \emph{factor} or an \emph{ordered factor} in R. MVAOS techniques
+\emph{quantify} factors, replacing the values in the image by real
+numbers. If the variables are real-valued to start with we replace real
+numbers by other real numbers and we \emph{transform} instead of
+\emph{quantify}. The distinction between quantification and
+transformation is somewhat fluid, because the image of a variable is
+always finite and thus, in a sense, all variables are categorical (a
+point also emphasized, for example, in Holland (1979)).
 
 Although the variables in a multivariable have the same domain, there
 can be different numbers of missing data for different variables. We
 handle this in the same way as R, by adding \texttt{NA} to the range of
-all variables. In this context it is also useful to define \emph{latent}
-or \emph{unobserved} variables. These are variables for which all values
-are missing, i.e.~for which the image only contains \texttt{NA}. At
-first thought it seems somewhat perverse to have such completely missing
-variables, but think of examples such as principal components, factor
-scores, or error terms in linear models.
+all variables.
 
-\section{Induced Correlations and
-Aspects}\label{induced-correlations-and-aspects}
+An MVAOS analysis, as defined in this book, analyzes a number of
+multivariables defined on the same domain. Thus variables are grouped
+into multivariables and multivariables are combined in MVAOS data
+structure.
+
+\begin{itemize}
+\tightlist
+\item
+  Principal Component Analysis - \(m\geq 2\) multivariables, each
+  multivariable contains a single variable \(\{(1)(1)\cdots (1)\}\)
+\item
+  Regression Analysis, ANOVA - two multivariables, one of them contains
+  a single variable \(\{m\}\{1\}\)
+\item
+  Multivariate Regrssion, MANOVA
+\item
+  Correspondence Analysis - two multivariables
+\item
+  Multiple Correspondence Analysis -
+\item
+  Canonical Correlation Analysis - two multivariables
+\item
+  Discriminant Analysis - two multivariables
+\item
+  Redundancy Analysis - Reduced Rank Regression
+\item
+  Canonical Correspondece Analysis -
+\item
+  Dynamals
+\item
+  Pathals
+\end{itemize}
+
+\section{Induced Correlations}\label{induced-correlations}
 
 If all categorical variables are quantified and all numerical variables
 are transformed we can compute the \emph{induced correlation matrix} of
@@ -840,11 +866,7 @@ normalized) monotone polynomial function of the image values of variable
 \(j\). The whole of \(\mathbb{R}^n\) and a single point in
 \(\mathbb{R}^n\) are both special cases of these normalized cones. It is
 important, especially for algorithm construction, that the restrictions
-are defined for each variable separately. An exception to this rule is
-the \emph{orthoblock}, using terminology from De Leeuw (2004), which
-requires that all or some of the columns of \(H\) are not only
-normalized but also orthogonal to each other. Clearly a normalized
-variable is an orthoblock of size one.
+are defined for each variable separately.
 
 \section{Bases}\label{bases}
 
@@ -868,9 +890,6 @@ equal to one, the indicator is \emph{crisp}, otherwise it is
 \emph{fuzzy}. B-spline bases are the prime example of fuzzy indicators,
 but other examples are discussed in Van Rijckevorsel and De Leeuw
 (1988). Only B-spline bases are implemented in our software, however.
-
-Note that the identity matrix is a crisp indicator. This is of
-importance in connection with missing data and orthoblocks.
 
 \section{Copies and Rank}\label{copies-and-rank}
 
@@ -914,11 +933,6 @@ attention. In our current implementation we merely require the first
 copy to be ordinal with the data, the other copies are not restricted.
 Once again, if you want ordinal restrictions on all copies you need to
 create separate gifiVariables for each copy.
-
-\section{Orthoblocks}\label{orthoblocks}
-
-If a variable has more than one copy, then we require without loss of
-generality that the transformations are orthogonal.
 
 \section{Constraints}\label{constraints}
 
@@ -1142,6 +1156,216 @@ an indicator: the elements are non-negative, and rows add up to one.
 
 \bookmarksetup{startatroot}
 
+\chapter{Gifi Loss Function}\label{gifi-loss-function}
+
+\section{Meet Loss}\label{meet-loss}
+
+MVAOS is a \emph{linear} multivariate technique in the sense that it
+makes linear combinations of transformed variables, and it is a
+\emph{nonlinear} multivariate technique in the sense that these
+transformations are generally nonlinear. The coefficients of the linear
+combinations are collected in a matrix \(A\), which we call the
+\emph{loadings}. There are \(L\) linear combinations of the \(m\)
+variable blocks, and consequently there are \(mL\) submatrices
+\(A_{j\ell}\). \(L\) is the \emph{number of equation blocks}.
+Constraints on the pattern largely define the technique. The typical
+situation is that either \(A_{j\ell}\) is free to vary over all matrices
+of the appropriate dimensions, or \(A_{j\ell}\) is equal to a fixed
+matrix, usually either the identity or zero. But more complicated
+constraints on the \(A_{j\ell}\) are sometimes also necessary.
+
+nd thus \emph{Gifi loss} is \begin{equation}
+\sigma(X,H,A)=\sum_{j=1}^m\mathbf{SSQ}\ (X-H_jA_j).\label{E:gifiloss}
+\end{equation} In \(\eqref{E:gifiloss}\) the matrix \(X\) is an
+orthoblock, which contains the \emph{object scores}. Note that in Gifi
+loss each variable block \(j\) corresponds with a unique submatrix
+\(A_j\), except for the object scores block, which contributes to all
+equation blocks. In Gifi systems the \(A_j\) are generally
+unconstrained.
+
+There is some additional terminology that is more or less specific to
+Gifi loss. The \emph{variable scores} are \(V_k\df h_ka_k'=G_kz_ka_k'\),
+and the \emph{block scores} are
+\(U_j\df H_jA_j=\sum_{k\in\mathcal{K}_j}V_k\). The \emph{category
+quantifications} are \(Y_k\df z_ka_k'\), so that \(V_k=G_kY_k\). Note
+that both variable scores and category quantifications, as defined here,
+are of rank one. In other words, their columns as well as their rows are
+proportional to each other.
+
+A Gifi solution can be associated with various sets of \emph{loadings},
+i.e. correlations between observed variables and constructed (or latent)
+variables, in this case object scores. Since both \(X\) and \(H_j\) are
+centered and normalized the \emph{variable loadings} for block \(j\) are
+simply the cross-product \(X'H_j\). Because optimal \(A_j\) is the
+linear least squares solution for given \(X\) and \(H_j\) we have
+\(H_j'(X-H_jA_j)=0\), which means the loadings are equal to the
+covariances between transformed variables and block scores. Each block
+has a \emph{discrimination matrix}, defined as
+\(\Delta_j\df A_j'H_j'H_jA_j=A_j'H_j'X=X'H_jH_j^+X\), with \(H_j^+\) the
+Moore-Penrose inverse. The diagonal
+\(\Lambda_j\df\mathbf{diag}(\Delta_j)\) of the discrimination matrix,
+the \emph{discrimination measures}, are the variances of the block
+scores. Thus the \emph{block loadings}, the correlations between
+transformed variables \(H_j\) and block scores \(U_j\) are equal to the
+correlations between the object scores and the block scores, and are
+given by \(H_j'U_j\Lambda_j^{-\frac12}=X'U_j\Lambda_j^{-\frac12}\).
+
+Loss function \(\eqref{E:gifiloss}\) can be interpreted geometrically.
+Zero loss, i.e.~solvability of the Gifi system, means that the scores
+\(x_i\) for object \(i\) coincide with the \(j\) block scores
+\(u_{ij}\), which consequently coincide with each other. This is why
+Gifi analysis is also called \emph{homogeneity analysis}, because we
+transform and combine the variables in such a way that the block scores
+are as homogeneous as possible. If we plot the \(n\) object scores
+\(x_i\) and the \(n\) block scores \(u_{ij}\) in a p-dimensional plot,
+then we want to make the squared distances \(\mathbf{SSQ}(x_i-u_{ij})\)
+summed over all \(i\) and \(j\) to be as small as possible.
+
+\section{Associated Eigenvalue
+Problems}\label{associated-eigenvalue-problems}
+
+Associated with the problem of minimizing loss function
+\(\eqref{E:gifiloss}\) are some eigenvalue and singular value problems
+defined by the matrices \(H_j\). This has been discussed in detail in
+Gifi (1990), and there are some more recent discussions in Tenenhaus and
+Tenenhaus (2011) and Van der Velden and Takane (2012).
+
+We begin the section with some definitions, which are more or less
+standard in MVAOS. First \(H\df(H_1\mid H_2\mid\cdots\mid H_m),\) and
+\(C\df H'H\). The matrix \(C\), which is called the \emph{Burt matrix}
+in correspondence analysis, is a \(p\times p\) block matrix, with
+\(m\times m\) blocks define by \(C_{j\ell}\df H_j'H_\ell\). We also use
+separate notation \(D_j\df C_{jj}=H_j'H_j\) for the diagonal blocks in
+\(C\), and for their direct sum \(D\df D_1\oplus\cdots\oplus D_m\).
+Finally \(A\) stacks the \(A_j\) on top of each other.
+
+The stationary equations for minimizing \(\sigma\) over \(X'X=I\) and
+\(A\), for given \(H\), are \begin{align}
+H'X&=DA,\\
+HA&=XM,
+\end{align} with \(X'X=I\), and \(M\) an \(r\times r\) symmetric matrix
+of Lagrange multipliers. It follows that \begin{equation}
+CA=DAM,\label{E:stata}
+\end{equation} as well as \begin{equation}
+HD^+H'X=XM,\label{E:statx}
+\end{equation} with \(X'X=I\) and \(D^+\) the Moore-Penrose inverse of
+\(D\). It follows that \(X=KT\), where \(K\) are eigenvectors
+corresponding with the \(r\) largest eigenvalues of \(HD^+H\) and \(L\)
+is an arbitrary rotation matrix. In the same way \(A=LT\), where \(L\)
+are the eigenvectors corresponding with the \(r\) largest eigenvalues of
+\(D^+C\). The non-zero eigenvalues of \(HD^+H'\) and \(D^+C\) are the
+same, both are equal to the squares of the singular values of
+\(HD^{-\frac12}\), with \(D^{-\frac12}\) the symmetric square root of
+\(D^+\).
+
+The result can be made a bit more intuitive by defining the orthogonal
+projectors \(P_j\df H_jD_j^+H_j'\) and their average \(P_\star\). Then
+\(X\) can be chosen as the normalized eigenvectors of \(P_\star\) and,
+if \(\lambda_s\) are the corresponding ordered eigenvalues,
+\begin{equation}
+\min_{X'X=I}\min_A\sigma(X,A,H)=\sum_{s=1}^r(1-\lambda_s(P_\star)).
+\end{equation} The eigenvalues in \(\Lambda\) are all between zero and
+one.
+
+In MVAOS the fit of block \(j\) is called the \emph{discrimination
+matrix}. It is defined as \(\Delta_j\df X'P_jX=A_j'D_jA_j\). Note that
+the average discrimination measure \(\Delta_\star\) is equal to the
+diagonal matrix \(\Lambda\).
+
+\section{History}\label{history}
+
+The history of loss function \(\eqref{E:newloss}\) is simple. Although
+numerous special cases have been used over the years, in its general
+form it only occurs, as far as we know, in De Leeuw (2004). It was
+designed to bridge the gap between \(\eqref{E:gifiloss}\) and linear
+systems such as RRR, MIMIC, EFA, and LISREL/EQS. It mainly differs from
+\(\eqref{E:gifiloss}\) in its systematic use of copies and orthoblocks.
+
+The history of \(\eqref{E:gifiloss}\), on the other hand, is
+complicated. It is easiest to start with the special case in which all
+variables are numerical (in our system that means no internal knots and
+degree equal to one). In that case MVAOS is a form of \emph{Generalized
+Canonical Correlation Analysis (GCCA)}, which extends canonical
+correlation analysis (CCA) to two or more blocks of variables.
+
+The various GCCA techniques proposed over the years for computing
+p-dimensional solutions are either \emph{simultaneous} or
+\emph{successive}. In a successive algorithm the loss function is only
+defined for \(p=1\). It is first optimized over all one-dimensional
+solutions. And then, for a subsequent dimension \(q\), the
+one-dimensional criterion is optimized over all solutions that are
+orthogonal to solutions \(1,\cdots,q-1\). In a simultaneous technique
+the loss function is defined for all \(p\), and the solution is computed
+by minimizing over all p-dimensional solutions. In a successive solution
+the first \(p\) dimensions of a \(p+1\) dimensional solution are the
+\(p\) dimensional soution, i.e.~successive solutions are \emph{nested}.
+Simultaneous solutions are generally not nested. On the other hand the
+successive \(p\) dimensional solution is usually not the best possible
+\(p\) dimensional solution.
+
+GCCA starts with Horst (1961b), Horst (1961a). The techniques proposed
+by Horst are successive, which means his loss functions are only defined
+for one-dimensional solutions, specifically one-dimensional block scores
+\(u_j=H_ja_j\). In Horst (1961a) four different techniques are proposed,
+with different loss functions, all defined as functions of the
+\emph{induced correlation matrix} of the block scores. For our purposes,
+the interesting one is his method 2, in which the largest eigenvalue of
+the induced correlation matrix is maximized. Horst (1961b) uses a
+different criterium, the sum of the correlation coefficients, which is
+not related to the Gifi loss function in any simple way.
+
+In a small paper, hidden away in a large proceedings volume, Carroll
+(1968) proposed a successive method maximizing
+\(\sum_{j=1}^m\mathbf{cor}^2(x,H_ja_j)\) over \(a_j\) and the auxilary
+variable \(x\). This turns out to be equivalent to method 2 of Horst.
+The work of Horst and Carroll was extended by Kettenring (1971) (in
+greater detail in Kettenring (1969)), who introduced several additional
+criteria, and baptized the Horst-Carroll method MAXVAR. In later work,
+it was shown by Gifi (1980) that minimizing
+\(\sum_{s=1}^p\sum_{j=1}^m\mathbf{cor}^2(x_s,H_ja_{js})\) over \(X'X=I\)
+and \(A\) gives the same result as successive MAXVAR. Also see Tenenhaus
+and Young (1985). We need one important qualification, using terminology
+introduced by Dauxois and Pousse (1976), which is that the successive
+method should use \emph{weak orthogonality}
+\(\sum_{j=1}^m a_{js}'H_jH_ja_{jt}=\delta^{st}\), with \(\delta^{st}\)
+the Kronecker delta, and not \emph{strong orthogonality}, which says
+that \(a_{js}'H_jH_ja_{jt}=\delta^{st}\) for all \(j,s,t\). More
+recently Kiers et al. (1994) have shown that simultaneous/successive
+MAXVAR also optimizes various measures of correlation defined on matrix
+space.
+
+The most important contribution of Gifi, however, is the switch from
+correlations and quadratic forms to least squares loss functions and
+Euclidean distances, ultimately leading to the loss function
+\(\eqref{E:gifiloss}\). Undoubtedly this was partly due to the heavily
+geometrical approach to MVA we were taught by John van de Geer, the
+father of Albert Gifi (Van de Geer (1971)). Van de Geer was influenced
+in turn by Coombs (1964), who introduced another basically geometric
+approach for the representation of data. On the computational side there
+was the influence of multidimensional scaling, with its emphasis on
+distance, breaking through in in the late sixties and early seventies.
+Shepard, Kruskal, Gnanadesikan, and Kettenring all worked at Bell
+Telephone Laboratories in Murray Hill, and both De Leeuw and Benzécri
+had visiting positions there around that time.
+
+In the classical Gifi system (Gifi (1990), Michailidis and De Leeuw
+(1998)) a slightly different parametrization of Gifi loss, and a
+correspondingly different ALS algorithm, were used. The loss function
+used by Gifi is \begin{equation}
+\sigma(X,Y)=\frac{1}{m}\sum_{j=1}^m\mathbf{SSQ}\ (X-\sum_{\ell\in K_j}G_\ell Y_\ell),\label{E:oldloss}
+\end{equation} where the \(G_\ell\) are known spanning matrices for the
+cones of transformations, and the \(Y_\ell\) are matrices of
+\emph{category quantifications}. Loss function \(\eqref{E:oldloss}\) is
+geared more towards quantification of discrete categorical variables.
+
+Because of the full rank decompositions \(Y_{j\ell}=Z_{j\ell}A_{j\ell}\)
+it follows that \(\eqref{E:gifiloss}\) and \(\eqref{E:oldloss}\) are
+essentially the same. Simply define \(H_j=G_jZ_j\). We feel that the
+alternative parametrization in terms of \(H_j\) and \(A_j\) has some
+conceptual and computational advantages.
+
+\bookmarksetup{startatroot}
+
 \chapter{Algorithm}\label{algorithm}
 
 \section{Block Relaxation}\label{block-relaxation}
@@ -1172,21 +1396,21 @@ Note that this is the case for MLR, PCA, EFA, and for all Gifi Systems.
 
 Step 2 is somewhat more intricate, because of the cone restrictions. In
 partitioned form we can write the loss function as \[
-\sigma(H,A)=\sum_{i=1}^m\mathbf{tr}\ H_i'\sum_{j=1}^mH_j\sum_{\ell=1}^LA_{j\ell}A_{i\ell}'
+  \sigma(H,A)=\sum_{i=1}^m\mathbf{tr}\ H_i'\sum_{j=1}^mH_j\sum_{\ell=1}^LA_{j\ell}A_{i\ell}'
 \]
 
 \[
-B_{ij}(A)=\sum_{\ell=1}^LA_{j\ell}A_{i\ell}'
+  B_{ij}(A)=\sum_{\ell=1}^LA_{j\ell}A_{i\ell}'
 \]
 
 \section{Majorization}\label{majorization}
 
 \[
-\mathbf{tr}\ H'HG=\mathbf{tr}\ (\tilde H + (H - \tilde H))'(\tilde H + (H - \tilde H))G\geq\\\mathbf{tr}\ \tilde H'\tilde HG+2\mathbf{tr}\ \tilde H'(H - \tilde H)G
+  \mathbf{tr}\ H'HG=\mathbf{tr}\ (\tilde H + (H - \tilde H))'(\tilde H + (H - \tilde H))G\geq\\\mathbf{tr}\ \tilde H'\tilde HG+2\mathbf{tr}\ \tilde H'(H - \tilde H)G
 \]
 
 \[
-\mathbf{tr}\ H'\tilde HG(\tilde H)
+  \mathbf{tr}\ H'\tilde HG(\tilde H)
 \]
 
 \section{Alternating Least Squares}\label{alternating-least-squares}
@@ -1228,7 +1452,7 @@ The complicated part is step 4, the \emph{optimal scaling}, i.e.~the
 updating of \(H_j\) for given \(X\) and \(A_j\). We cycle through the
 variables in the block, each time projecting a single column on the cone
 of admissible transformations of the variable, and then normalizing the
-projection to length one. The \emph{target}, i.e.~the vector we are
+projection to length one. The \emph{target}, i.e. the vector we are
 projecting, is complicated, because the other variables in the same
 block must be taken into account.
 
@@ -1237,15 +1461,15 @@ iteration we can use majorization (\textbf{deleeuw\_B\_15?}). This has
 the additional benefit that the optimal scaling step becomes
 embarassingly parallel. We expand the loss for block \(j\) around a
 previous solution \(\tilde H_j\). \[
-\mathbf{SSQ}(X-H_jA_j)=
-\mathbf{SSQ}(X-\tilde H_jA_j)-2\mathbf{tr}\ (H_j-\tilde H_j)'(X-\tilde H_jA_j)A_j'
-+\mathbf{tr}\ A_j'(H_j-\tilde H_j)'(H_j-\tilde H_j)A_j.
+  \mathbf{SSQ}(X-H_jA_j)=
+  \mathbf{SSQ}(X-\tilde H_jA_j)-2\mathbf{tr}\ (H_j-\tilde H_j)'(X-\tilde H_jA_j)A_j'
+  +\mathbf{tr}\ A_j'(H_j-\tilde H_j)'(H_j-\tilde H_j)A_j.
 \] Now \[
-\mathbf{tr}\ (H_j-\tilde H_j)A_jA_j'(H_j-\tilde H_j)'\leq\kappa_j\ \mathbf{tr}\ (H_j-\tilde H_j)'(H_j-\tilde H_j),
+  \mathbf{tr}\ (H_j-\tilde H_j)A_jA_j'(H_j-\tilde H_j)'\leq\kappa_j\ \mathbf{tr}\ (H_j-\tilde H_j)'(H_j-\tilde H_j),
 \] where \(\kappa_j\) is the largest eigenvalue of \(A_j'A_j\). Thus \[
-\mathbf{SSQ}(X-H_jA_j)\leq\mathbf{SSQ}(X-\tilde H_jA_j)+\kappa_j\ \mathbf{SSQ}(H_j-U_j)-\frac{1}{\kappa_j}\ \mathbf{SSQ}((X-\tilde H_jA_j)A_j'),
+  \mathbf{SSQ}(X-H_jA_j)\leq\mathbf{SSQ}(X-\tilde H_jA_j)+\kappa_j\ \mathbf{SSQ}(H_j-U_j)-\frac{1}{\kappa_j}\ \mathbf{SSQ}((X-\tilde H_jA_j)A_j'),
 \] where \(U_j\) is the \emph{target} \[
-U_j=\tilde H_j+\frac{1}{\kappa_j}(X-\tilde H_jA_j)A_j'.\tag{3}
+  U_j=\tilde H_j+\frac{1}{\kappa_j}(X-\tilde H_jA_j)A_j'.\tag{3}
 \] It follows we can update the optimal scaling of the variables by
 projecting the columns of \(U_j\) on their respective cones and then
 normalizing. See De Leeuw (1975) for results on normalized cone
@@ -1913,11 +2137,10 @@ Two
 
 \bookmarksetup{startatroot}
 
-\chapter{}\label{section}
+\chapter{Correspondence Analysis and
+corals()}\label{correspondence-analysis-and-corals}
 
-\#Correspondence Analysis and corals()
-
-\#\#Introduction
+\section{Introduction}\label{introduction-2}
 
 Ordinary correspondence analysis (OCA) is the special case of MCA in
 which there are only two variables, and both variables have the maximum
@@ -1971,7 +2194,7 @@ restrictions, and it can deal with missing data in one of both of the
 variables. If there are supplementary variables then it makes more sense
 to use \texttt{homals()}.
 
-\#\#Equations
+\section{Equations}\label{equations-1}
 
 The usual stationary equations for OCA, using the category
 quantifications \(Y_1\) and \(Y_2\) are \begin{align*}
@@ -2006,9 +2229,9 @@ correlations between \(X\) and the \(G_j\tilde Y_j\) are more
 interesting. Since \(X'G_j\tilde Y_j=\tilde\Lambda\), we see these
 correlations are equal to \(\tilde\Lambda^\frac12\).
 
-\#\#Examples
+\section{Examples}\label{examples-1}
 
-\#\#\#Glass
+\subsection{Glass}\label{glass}
 
 We start with a classical OCA example that was also used by Gifi (1990)
 (p 277-280) and by De Leeuw and Mair (2009b). Data are from Glass
@@ -2128,7 +2351,7 @@ permutes the rows and colums of the table.
 
 Figure 14: Glass Data, Regression Plots
 
-\#\#\#Galton
+\subsection{Galton}\label{galton}
 
 To illustrate some of the additional \texttt{corals()} options we use
 the classical father-child RFF height data of Galton (1889). It has
@@ -2217,24 +2440,24 @@ Figure 16: Galton Data, Transformation Plots
 \chapter{Canonical Correspondence Analysis and
 coranals()}\label{canonical-correspondence-analysis-and-coranals}
 
-\section{Introduction}\label{introduction-2}
+\section{Introduction}\label{introduction-3}
 
-\section{Equations}\label{equations-1}
+\section{Equations}\label{equations-2}
 
 Canonical analysis of \(GX\) and \(H\).
 
-\section{Examples}\label{examples-1}
+\section{Examples}\label{examples-2}
 
 \bookmarksetup{startatroot}
 
 \chapter{Nonlinear Principal Component Analysis and
 princals()}\label{nonlinear-principal-component-analysis-and-princals}
 
-\section{Introduction}\label{introduction-3}
+\section{Introduction}\label{introduction-4}
 
 princals, principals, Shepard-Kruskal, mdrace, history
 
-\section{Equations}\label{equations-2}
+\section{Equations}\label{equations-3}
 
 Suppose all \(m\) blocks each contain only a single variable. Then the
 Burt matrix is the correlation matrix of the \(H_j\), which are all
@@ -2243,7 +2466,7 @@ sum of the \(r\) largest eigenvalues of the correlation matrix over
 transformations, i.e.~MVAOS is \emph{nonlinear principal component
 analysis} (De Leeuw 2014).
 
-\section{Examples}\label{examples-2}
+\section{Examples}\label{examples-3}
 
 \subsection{Thirteen Personality
 Scales}\label{thirteen-personality-scales-1}
@@ -2346,7 +2569,11 @@ Two
 \chapter{Canonical Analysis and
 canals()}\label{canonical-analysis-and-canals}
 
-\section{Equations}\label{equations-3}
+\bookmarksetup{startatroot}
+
+\chapter{Introduction}\label{introduction-5}
+
+\section{Equations}\label{equations-4}
 
 If there are only two blocks the generalized eigenvalue problem for the
 Burt matrix becomes \[
@@ -2367,7 +2594,7 @@ C_{21}a_1&=(2\lambda-1)D_2a_2,
 canonical correlations between \(H_1\) and \(H_2\). See also Van der
 Velden (2012).
 
-\section{Examples}\label{examples-3}
+\section{Examples}\label{examples-4}
 
 \bookmarksetup{startatroot}
 
@@ -2378,9 +2605,9 @@ If the second block only contains a single copy of a single variable
 then we choose transformations that maximize the multiple correlation of
 that variable and the variables in the first block.
 
-\section{Equations}\label{equations-4}
+\section{Equations}\label{equations-5}
 
-\section{Examples}\label{examples-4}
+\section{Examples}\label{examples-5}
 
 \subsection{Polynomial Regression}\label{polynomial-regression}
 
@@ -2463,14 +2690,18 @@ addals()}\label{conjoint-analysis-and-addals}
 \chapter{Discriminant Analysis and
 criminals()}\label{discriminant-analysis-and-criminals}
 
-\section{Equations}\label{equations-5}
+\bookmarksetup{startatroot}
+
+\chapter{Introduction}\label{introduction-6}
+
+\section{Equations}\label{equations-6}
 
 If the second block contains more than one copy of a single variable and
 we use binary indicator coding for that variable, then we optimize the
 eigenvalue (between/within ratio) sums for a canonical discriminant
 analysis.
 
-\section{Examples}\label{examples-5}
+\section{Examples}\label{examples-6}
 
 \subsection{Iris data}\label{iris-data}
 
@@ -2519,6 +2750,45 @@ variables for which the between-variance is largest relative to the
 total variance. MVAOS optimizes the sum of the \(r\) largest eigenvalues
 of \(T^{-1}B\). Before optimal transformation these eigenvalues for the
 iris data are \texttt{r}, after transformation they are \texttt{r}.
+
+\bookmarksetup{startatroot}
+
+\chapter{Multiblock Canonical Correlation and
+overals()}\label{multiblock-canonical-correlation-and-overals}
+
+\section{Equations}\label{equations-7}
+
+\section{Examples}\label{examples-7}
+
+\subsection{Thirteen Personality
+Scales}\label{thirteen-personality-scales-2}
+
+This is the same example as before, but now we group the five scales
+from the Eysenck Personality Inventory and the five from the Big Five
+inventory into blocks. The remaining three variables define three
+separate blocks. No copies are used, and we use monotone cubic splines
+with the interior knots at the quartiles.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{data}\NormalTok{(epi.bfi, }\AttributeTok{package =} \StringTok{"psychTools"}\NormalTok{)}
+\NormalTok{epi.bfi }\OtherTok{\textless{}{-}} \FunctionTok{as.matrix}\NormalTok{(epi.bfi)}
+\NormalTok{epi\_ordinal }\OtherTok{\textless{}{-}} \FunctionTok{rep}\NormalTok{ (}\ConstantTok{TRUE}\NormalTok{, }\DecValTok{13}\NormalTok{)}
+\NormalTok{epi\_knots }\OtherTok{\textless{}{-}} \FunctionTok{lapply}\NormalTok{ (epi.bfi, }\ControlFlowTok{function}\NormalTok{ (x) }\FunctionTok{fivenum}\NormalTok{ (x)[}\DecValTok{2}\SpecialCharTok{:}\DecValTok{4}\NormalTok{])}
+\NormalTok{epi\_degrees }\OtherTok{\textless{}{-}} \FunctionTok{rep}\NormalTok{ (}\DecValTok{3}\NormalTok{, }\DecValTok{13}\NormalTok{)}
+\NormalTok{epi\_blocks }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{1}\NormalTok{,}\DecValTok{1}\NormalTok{,}\DecValTok{1}\NormalTok{,}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{,}\DecValTok{4}\NormalTok{,}\DecValTok{5}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{h }\OtherTok{\textless{}{-}} \FunctionTok{overals}\NormalTok{(epi.bfi, epi\_blocks, epi\_copies, epi\_knots, epi\_degrees, epi\_ordinal)}
+\end{Highlighting}
+\end{Shaded}
+
+Figure 25: Personality Scales, Multi-Set, Objects Scores
+
+Figure 26: Personality Scales, Multi-Set, , Transformations
 
 \bookmarksetup{startatroot}
 
@@ -2575,9 +2845,17 @@ Coolen, H., and J. De Leeuw. 1987. \emph{{Least Squares Path Analysis
 with Optimal Scaling}}. Research Report RR-87-03. Department of Data
 Theory FSW/RUL.
 
+\bibitem[\citeproctext]{ref-coombs_64}
+Coombs, Clyde H. 1964. \emph{{A Theory of Data}}. Wiley.
+
 \bibitem[\citeproctext]{ref-cordier_65}
 Cordier, B. 1965. {``{L'Analyse Factorielle des Correspondances}.''}
 \{Th\textbackslash`ese de Troisieme Cycle\}, Université de Rennes.
+
+\bibitem[\citeproctext]{ref-dauxois_pousse_76}
+Dauxois, J., and A. Pousse. 1976. {``{Les Analyses Factorielles en
+Calcul des Probabilités et en Statistique: Essai d'Étude
+Synthetique}.''} PhD thesis, Université Paul-Sabatier, Toulouse, France.
 
 \bibitem[\citeproctext]{ref-davies_95}
 Davies, P. L. 1995. {``{Data Features}.''} \emph{Statistica Neerlandica}
@@ -2759,8 +3037,32 @@ Hill, M. O. 1990. {``{Review of A. Gifi, Multivariate Analysis}.''}
 Holland, P. W. 1979. {``{The Tyranny of Continuous Models in a World of
 Discrete Data}.''} \emph{IHS-Journal} 3: 29--42.
 
+\bibitem[\citeproctext]{ref-horst_61b}
+Horst, P. 1961a. {``{Generalized Canonical Correlations and their
+Applications to Experimental Data}.''} \emph{Journal of Clinical
+Psychology} 17: 331--47.
+
+\bibitem[\citeproctext]{ref-horst_61a}
+Horst, P. 1961b. {``{Relations Among m Sets of Measures}.''}
+\emph{Psychometrika} 26: 129--49.
+
 \bibitem[\citeproctext]{ref-ibm_15}
 IBM. 2015. \emph{IBM SPSS Categories 23}. IBM Corporation.
+
+\bibitem[\citeproctext]{ref-kettenring_69}
+Kettenring, J. R. 1969. \emph{{Canonical Analysis of Several Sets of
+Variables}}. Institute of Statistics Mimeo Series No. 615. University of
+North Carolina at Chapell Hill.
+
+\bibitem[\citeproctext]{ref-kettenring_71}
+Kettenring, J. R. 1971. {``{Canonical Analysis of Several Sets of
+Variables}.''} \emph{Biometrika} 58: 433--51.
+
+\bibitem[\citeproctext]{ref-kiers_cleroux_tenberge_94}
+Kiers, H. A. L, R. Cléroux, and J. M. F Ten Berge. 1994. {``{Generalized
+Canonical Analysis Based on Optimizing Matrix Correlations and a
+Relation with IDIOSCAL}.''} \emph{Computational Statistics and Data
+Analysis} 18: 331--40.
 
 \bibitem[\citeproctext]{ref-koyak_87}
 Koyak, R. 1987. {``{On Measuring Internal Dependence in a Set of Random
@@ -2827,6 +3129,11 @@ R, with two- and three-dimensional graphics: The ca package}.''}
 Peschar, Julien L. 1975. \emph{{School, Milieu, Beroep}}. Tjeek Willink.
 \url{https://pure.rug.nl/ws/portalfiles/portal/14528340/peschar.PDF}.
 
+\bibitem[\citeproctext]{ref-r_core_team_26}
+R Core Team. 2026. \emph{R: A Language and Environment for Statistical
+Computing}. R Foundation for Statistical Computing.
+\url{https://www.R-project.org/}.
+
 \bibitem[\citeproctext]{ref-revelle_15}
 Revelle, William. 2015. \emph{Psych: Procedures for Psychological,
 Psychometric, and Personality Research}. Northwestern University.
@@ -2851,9 +3158,23 @@ Analysis}.''} \emph{Journal of the American Statistical Association} 87:
 Tanaka, Y. 1979. {``{Review of the Methods of Quantification}.''}
 \emph{Environmental Health Perspectives} 32: 113--23.
 
+\bibitem[\citeproctext]{ref-tenenhaus_tenenhaus_11}
+Tenenhaus, A., and M. Tenenhaus. 2011. {``{Regularized Generalized
+Canonical Correlation Analysis}.''} \emph{Psychometrika} 76: 257--84.
+
+\bibitem[\citeproctext]{ref-tenenhaus_young_85}
+Tenenhaus, Michel, and Forest W. Young. 1985. {``{An Analysis and
+Synthesis of Multiple Correspondence Analysis, Optimal Scaling, Dual
+Scaling, Homogeneity Analysis and Other Methods for Quantifying
+Categorical Multivariate Data}.''} \emph{Psychometrika} 50: 91--119.
+
 \bibitem[\citeproctext]{ref-tukey_62}
 Tukey, J. W. 1962. {``{The Future of Data Analysis}.''} \emph{Annals of
 Mathematical Statistics} 33: 1--79.
+
+\bibitem[\citeproctext]{ref-vandegeer_71}
+Van de Geer, J. P. 1971. \emph{{Introduction to Multivariate Analysis
+for the Social Sciences}}. Freeman.
 
 \bibitem[\citeproctext]{ref-vanderheijden_vanbuuren_16}
 Van der Heijden, P. G. M., and S. Van Buuren. 1916. {``Looking Back at
@@ -2864,6 +3185,11 @@ Statistical Software} 73 (4).
 Van der Velden, M. 2012. {``On Generalized Canonical Correlation
 Analysis.''} \emph{Proceedings 58th World Statistical Congress, 2011,
 Dublin} (The Hague), 758--65.
+
+\bibitem[\citeproctext]{ref-vandervelden_takane_12}
+Van der Velden, M., and Y. Takane. 2012. {``{Generalized Canonical
+Correlation Analysis with Missing Values}.''} \emph{Computational
+Statistics} 27: 551--71.
 
 \bibitem[\citeproctext]{ref-vanrijckevorsel_deleeuw_B_88}
 Van Rijckevorsel, Jan L. A., and Jan De Leeuw, eds. 1988.
@@ -2881,13 +3207,6 @@ Additivity}.''} \emph{Biometrika} 67: 669--74.
 Winsberg, S., and J. O. Ramsay. 1983. {``{Monotone Spline
 Transformations for Dimension Reduction}.''} \emph{Psychometrika} 48:
 575--95.
-
-\bibitem[\citeproctext]{ref-xie_15}
-Xie, Y. 2015. \emph{{Dynamic Documents with R and knitr}}. Second
-Edition. CRC Press.
-
-\bibitem[\citeproctext]{ref-xie_16}
-Xie, Y. 2016. \emph{Bookdown: Authoring Books with r Markdown.}
 
 \bibitem[\citeproctext]{ref-young_81}
 Young, F. W. 1981. {``{Quantitative Analysis of Qualitative Data}.''}

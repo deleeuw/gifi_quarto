@@ -3,9 +3,9 @@
 source("./meta.R")
 ```
 
-#Correspondence Analysis and corals()
+# Correspondence Analysis and corals()
 
-##Introduction
+## Introduction
 
 Ordinary correspondence analysis (OCA) is the special case of MCA in which there are only two variables, and both variables have the maximum number of copies. Consequently the `homals()` wrapper can be used to compute a CA. Because input and output can be organized a bit differently for OCA we have written the separate wrapper `corals()`.
 
@@ -24,7 +24,7 @@ then they are replaced in `corals()` by the quartiles of the two variables.
 
 The redeeming feature of `corals()` is that, unlike the other classical OCA packages, it can handle numerical variables, it can incorporate higher order splines, it can impose monotonicity restrictions, and it can deal with missing data in one of both of the variables. If there are supplementary variables then it makes more sense to use `homals()`.
 
-##Equations
+## Equations
 
 The usual stationary equations for OCA, using the category quantifications $Y_1$ and $Y_2$ are
 \begin{align*}
@@ -50,9 +50,9 @@ In classical OCA there is no direct equivalent of the object scores $X$. Also we
 between $X$ and the $G_j\tilde Y_j$ are more interesting. Since $X'G_j\tilde Y_j=\tilde\Lambda$, we see these correlations are equal to $\tilde\Lambda^\frac12$.
 
 
-##Examples
+## Examples
 
-###Glass
+### Glass
 
 We start with a classical OCA example that was also used by @gifi_B_90 (p 277-280) and by @deleeuw_mair_A_09b. Data are from @glass_54. Occupational status of the fathers is crossed with occupational status of the son, for 3497 British families. The row (father) and column (son) categories are
 
@@ -144,7 +144,7 @@ regressionPlotter(glass,h$xquantifications[,2],h$yquantifications[,2], xname= "S
 </center>
 <hr>
 
-###Galton
+### Galton
 
 To illustrate some of the additional `corals()` options we use the classical father-child RFF height data of @galton_89. It has mid-parent height in the rows and mid-adult-child height in the columns.
 
